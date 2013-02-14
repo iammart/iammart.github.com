@@ -1,11 +1,6 @@
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="author" content="Your Name" />
-    <title>{{ page.title }}</title>
-  </head>
+  {% include head.html %}
   <body>
     <header>
       <h1><a href="/">{{ page.title }}</a></h1>
@@ -13,5 +8,6 @@
     <section>
       {{ content }}
     </section>
+    {% include footer.html %}
   </body>
 </html>

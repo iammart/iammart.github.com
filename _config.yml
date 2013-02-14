@@ -1,4 +1,4 @@
-auto: true
-markdown: rdiscount
-permalink: /:year/:month/:day/:title
-rdiscount extensions: [smart]
+name: Mart Dingley - Designer and Developer
+description: Thoughts by Mart Dingley
+url: http://www.martdingley.co.uk
+permalink: /:category/:title
